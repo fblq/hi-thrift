@@ -1,0 +1,8 @@
+package: .
+import:
+- package: git.apache.org/thrift.git
+  subpackages:
+  - lib/go/thrift
+- package: github.com/golang/net
+  subpackages:
+  - context
